@@ -1,0 +1,84 @@
+body {
+    background: #f8f8f8;
+    font-family: Open-Sans, Sans-Serif;
+}
+
+.logoLink {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.menu a {
+    color: blue;
+}
+
+footer {
+    text-align:center;
+}
+
+.productHeader {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.productImage{
+    outline: 3px orange solid;
+}
+
+.productImage:hover {
+    outline: 0px;
+}
+
+.productShortDesc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.productTable {
+    color: darkblue;
+    border-collapse: collapse;
+}
+
+.productTable td{
+    border: 1px black solid
+}
+
+.productFullDesc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contactInput {
+    height: 20px;
+    width: 250px;
+    color: darkblue;
+}
+
+.contactInputArea, .contactInput {
+    text-transform: capitalize;
+}
+
+ .contactInput[type = "email"]:focus  {
+    background: blue;
+    color: white;
+}
+
+.contactInputArea {
+    width: 250px;
+    color: darkblue;
+}
