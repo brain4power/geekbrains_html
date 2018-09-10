@@ -1,6 +1,6 @@
 body {
     background: #f8f8f8;
-    font-family: Open-Sans, Sans-Serif;
+    font-family: Open-Sans, sans-serif;
 }
 
 .logoLink {
@@ -73,7 +73,7 @@ footer {
     text-transform: capitalize;
 }
 
- .contactInput[type = "email"]:focus  {
+ .contactInput[type="email"]:focus  {
     background: blue;
     color: white;
 }
