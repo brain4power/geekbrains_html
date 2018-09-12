@@ -1,0 +1,64 @@
+body {
+    background: #f8f8f8;
+    margin: 0 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: #abeafa;
+    height: 700px;
+}
+
+.headerContainer {
+    margin: 0 auto;
+    position: relative;
+    width: 1170px;
+    height: inherit;
+}
+
+.logo {
+    display: block;
+    background: url(../images/surfhouseLogo.png) no-repeat;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    left: 69px;
+    top: 24px;
+}
+
+.boxWelcome {
+    display: block;
+    position: absolute;
+    bottom: 64px;
+    height: 300px;
+    width: 270px;
+    background: #fff51f;
+}
+
+.headerSocials {
+    display: block;
+    position: absolute;
+    right: 64px;
+    top: 50px;
+}
+
+.headerSocials a{
+    text-decoration: none;
+}
+
+.headerSocials i {
+    color: #f8f8f8;
+}
+
+.headerSocials i:hover {
+    color: #26d2fc;
+}
+
+.headerMessage {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 64px;
+    right: 64px;
+}
