@@ -50,8 +50,9 @@
 
 body {
     background: #f8f8f8;
-    margin: 0 0;
+    margin: 0 auto;
     font-family: sans-serif;
+    width: 1170px;
 }
 
 header {
@@ -62,7 +63,7 @@ header {
 .headerContainer {
     margin: 0 auto;
     position: relative;
-    width: 1170px;
+    width: inherit;
     height: inherit;
 }
 
@@ -314,9 +315,80 @@ header {
 
 .brandBoxContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .brandItem {
     display: inline-block;
+    margin: 70px 15px;
+    color: #bababa;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.instaFeed {
+    height: 350px;
+    background-color: #eaeaea;
+}
+
+.instaFeedHeader {
+    text-align: center;
+    padding: 50px;
+    font-family: "Roboto Black Italic", sans-serif;
+}
+
+.instaFeedHeader a{
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+}
+
+.instaFeedHeader span{
+    font-size: 18px;
+}
+
+.instaFeedPicsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instaFeedPics {
+    width: 170px;
+    height: 171px;
+    display: inline-block;
+    border: 5px solid white;
+}
+
+.bigSocials {
+    display: flex;
+    justify-content: space-around;
+    height: 152px;
+}
+
+.bigSocials a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    flex: 1 1 auto;
+    text-align: center;
+    padding-top: 57px;
+    font-size: 52px;
+}
+
+.bigSocialsFB {
+    background-color: #3b5997;
+}
+
+.bigSocialsTw {
+    background-color: #3fccfd;
+}
+
+.bigSocialsPt {
+    background-color: #cb2027;
+}
+
+footer {
+    background-color: #373737;
+    height: 348px;
+    width: 1170px;
 }
