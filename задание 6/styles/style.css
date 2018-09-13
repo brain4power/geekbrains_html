@@ -236,6 +236,11 @@ header {
 
 .productBoxHeader {
     display: block;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #707070;
+    margin: 28px 0 28px 25px;
 }
 
 .productItemBox {
@@ -249,4 +254,33 @@ header {
 
 .productItemBox:nth-child(3n) {
     margin-right: 0;
+}
+
+.productItemImage {
+    display: block;
+    text-decoration: none;
+    background-color: #eaeaea;
+    margin: 10px;
+    width: 250px;
+    height: 230px;
+}
+
+.productItemName {
+    text-decoration: none;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.productItemPrice {
+    font-family: "Roboto Black Italic", sans-serif;
+    color: #333;
+    font-size: 18px;
+}
+
+.productItemOldPrice {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: "Roboto Black Italic", sans-serif;
 }
