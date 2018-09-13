@@ -1,3 +1,53 @@
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 body {
     background: #f8f8f8;
     margin: 0 0;
@@ -33,11 +83,31 @@ header {
     height: 300px;
     width: 270px;
     background: #fff51f;
+    padding: 58px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.boxWelcome h1 {
+    font-family: "Raleway Bold", sans-serif;
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.boxWelcomeText {
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+    margin-top: 21px;
+    color: #333;
 }
 
 .headerSocials {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
+    width: 120px;
     right: 64px;
     top: 50px;
 }
@@ -57,8 +127,126 @@ header {
 .headerMessage {
     display: block;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    bottom: 64px;
-    right: 64px;
+    width: 322px;
+    height: 296px;
+    bottom: 160px;
+    right: 100px;
+}
+
+.headerMessage h1 {
+    margin: 0 0;
+    font-family: "Raleway Extra Bold", sans-serif;
+    color: #fff51f;
+    font-size: 48px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.headerMessageText {
+    font-family: "Raleway Regular", sans-serif;
+    color: #fff51f;
+    font-size: 18px;
+    margin-top: 4px;
+    line-height: 1.4;
+}
+
+.headerMessageButton {
+    background-color: #fff51f;
+    width: 127px;
+    height: 49px;
+    display: block;
+    line-height: 49px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway Black", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 59px;
+}
+
+.headerMessageButton:hover {
+    color: #fff51f;
+    background-color: black;
+
+}
+
+.mainContainer {
+    margin: 0 auto;
+    position: relative;
+    width: 1170px;
+    height: inherit;
+}
+
+.leftContainer {
+    float: left;
+    width: 270px;
+    position: relative;
+    top: -20px;
+}
+
+.mainMenu h2 {
+    display: block;
+    margin: 0 0;
+    color: #ffffff;
+    background-color: #333333;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    padding: 29px 42px 20px 42px;
+}
+
+.mainMenuList {
+    display: block;
+    text-decoration: none;
+    margin: 0 0;
+    color: #030e11;
+    background-color: #26d2fc;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    padding: 13px 42px 13px 41px;
+}
+
+.mainMenuList:hover {
+    color: #ffffff;
+    background-color: #030e11;
+}
+
+.mainAds {
+    display: block;
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 130px 17px 73px 143px;
+    line-height: 36px;
+}
+
+.rightContainer {
+    float: right;
+    width: 870px;
+    position: relative;
+    top: -20px;
+    background-color: #f8f8f8;
+}
+
+.productBoxHeader {
+    display: block;
+}
+
+.productItemBox {
+    float: left;
+    width: 270px;
+    height: 322px;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.productItemBox:nth-child(3n) {
+    margin-right: 0;
 }
